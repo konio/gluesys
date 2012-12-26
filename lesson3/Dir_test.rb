@@ -1,0 +1,1 @@
+puts Dir.entries(File.dirname(__FILE__)).join("\n")

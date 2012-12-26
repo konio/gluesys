@@ -1,0 +1,8 @@
+# A sample Guardfile
+# More info at https://github.com/guard/guard#readme
+
+guard :shell do
+	#watch("topic.md") { `git status` }
+	watch("topic.md") { `echo this is graurd` }
+end
+

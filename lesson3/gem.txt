@@ -1,0 +1,11 @@
+gem -v
+
+gem list --local
+
+gem install rake
+
+gem install bundler
+
+gem install guard
+
+gem install rails

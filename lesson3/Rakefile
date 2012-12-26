@@ -1,0 +1,12 @@
+namespace :gluesys do
+	desc "This is a default rake"
+	task :default =>[:first] do
+		puts "this is a default"
+	end
+
+
+	desc "This is a first rake"
+	task :first do
+	  ruby "test/unittest.rb"
+	end
+end
